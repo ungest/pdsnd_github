@@ -67,7 +67,7 @@ This products can be used to understand customer behaviour and actions. The info
 * LinkedIn - https://www.linkedin.com/in/david-usoro-9029a4162/
 
 ## Acknowledgments
-The datasets that was wrangled and on which the analysis was performed on was gotten from the websites provided below
+All three (3) raw datasets used to enable the smooth running of the analysis in the bikeshare project, though proper cleaning had to be done by Udacity instructors, were all from these websites.
 * https://divvybikes.com/system-data
 * https://citibikenyc.com/system-data
 * https://capitalbikeshare.com/system-data
