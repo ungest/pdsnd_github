@@ -1,10 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[4]:
-
-
-# %load project_2.py
 import time
 import pandas as pd
 import numpy as np
@@ -258,22 +251,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-
-# In[2]:
-
-
-CITY_DATA = { 'chicago': 'chicago.csv',
-              'new york city': 'new_york_city.csv',
-              'washington': 'washington.csv' }
-
-data = pd.read_csv(CITY_DATA['chicago'])
-data[5:10]
-
-
-# In[ ]:
-
-
-
-
