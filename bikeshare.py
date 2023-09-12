@@ -230,6 +230,8 @@ def user_stats(df):
 
 
 def main():
+    '''Use try-except to catch the KeyboardInterrupt error
+    '''
     while True:
         try:
             city, month, day = get_filters()
