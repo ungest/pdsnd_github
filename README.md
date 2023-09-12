@@ -42,6 +42,8 @@ Here is a concise list of the tools and libraries I used to build this product.
 In order to set up this project to run on your local machine, the user needs to make some installations.
 
 ### Prerequisites
+* Python 
+
 * pandas
     ```sh
     pip install pandas
