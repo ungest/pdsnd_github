@@ -56,6 +56,8 @@ def get_filters():
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
     days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all']
+
+    # Use try-except to catch errors that may occur due to wrong user input also informing the user about the error in a print statement while asking for correct input 
     while True:
         day = input('Do you want statistics from a specific day of the week or all(all, monday, tuesday, wednesday, thursday, friday, saturday, sunday)? Make your choice: ').lower()
         try:
