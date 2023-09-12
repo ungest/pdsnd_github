@@ -56,7 +56,7 @@ In order to set up this project to run on your local machine, the user needs to 
 1. Download the product 'bikeshare.py'
 2. Download the three (3) csv files named 'chicago.csv', 'new_york_city.csv', 'washington.csv' into the same folder as the product file.
 3. Install and set up git or an IDE that runs python code like pycharm, Visual Studio Code.
-4. open the file on any of the IDEs or use this command on git 'python bikeshare.py'\n",
+4. open the file on any of the IDEs or use this command on git 'python bikeshare.py'.
 
 ## Usage
 This products can be used to understand customer behaviour and actions. The informations gotten from this product can leas to effective decision making and enhance customer care and by so doing increase overall profit.
