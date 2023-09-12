@@ -1,10 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[4]:
-
-
-# %load project_2.py
 import time
 import pandas as pd
 import numpy as np
@@ -24,11 +17,11 @@ def get_filters():
     """
     print('Hello! Let\'s explore some US bikeshare data!')
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
-    city_options = ['chicago', 'new york city', 'washington']
+    options = ['chicago', 'new york city', 'washington']
     while True:
         city = input('Which of these cities would you like to look into? (chicago, new york city, washington): ').lower()
         try:
-            city_options.index(city)
+            options.index(city)
             break
         except ValueError:
             print('Invalid input!\nPlease enter a city that corresponds to the available options.') 
@@ -262,22 +255,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-
-# In[2]:
-
-
-CITY_DATA = { 'chicago': 'chicago.csv',
-              'new york city': 'new_york_city.csv',
-              'washington': 'washington.csv' }
-
-data = pd.read_csv(CITY_DATA['chicago'])
-data[5:10]
-
-
-# In[ ]:
-
-
-
-
